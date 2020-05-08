@@ -56,21 +56,20 @@ select:focus {
   padding: 0 25px;
   height: 50px;
   font-size: 16px;
-  line-height: 50px;
   border-radius: 25px;
   background-color: #f1f1f1;
   align-items: center;
 }
 
-.chip p {
-  font-size: medium;
-}
-
 .chip img {
-  margin: 0 10px 0 -25px;
+  margin: 0 -25px 0 10px;
   height: 50px;
   width: 50px;
   border-radius: 50%;
+}
+
+.chip p {
+  font-size: medium;
 }
 
 main {
