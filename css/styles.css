@@ -9,6 +9,9 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: solid;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -18,12 +21,56 @@ header {
   max-height: 100px;
 }
 
-.information {
+/* TODO: verificar se vai usar o line height */
+.headerInformation {
+  background-color: #f1f1f1;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  font-size: 16px;
+  padding: 0 25px;
+  border-radius: 25px;
 }
 
-.autor {
+.itemInformation {
+  margin: 0 5px;
+  /* background-color: chartreuse; */
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+.itemInformation input {
+  border: 0;
+  background-color: #f1f1f1;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+  outline: 0;
+}
+
+.chip {
+  display: flex;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+  align-items: center;
+}
+
+.chip p {
+  font-size: medium;
+}
+
+.chip img {
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 main {
