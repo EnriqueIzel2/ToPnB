@@ -78,4 +78,6 @@ main {
 
 footer {
   background-color: blueviolet;
+  position: fixed;
+  bottom: 0;
 }
