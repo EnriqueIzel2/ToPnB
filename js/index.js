@@ -15,7 +15,7 @@ function renderCards(cardData) {
   cardData.map((card) => renderCard(card));
 }
 
-function renderCard({ photo, property_type, price }) {
+function renderCard({ photo, property_type, name, price }) {
   const div = document.createElement("div");
 
   div.className = "card";
@@ -26,8 +26,9 @@ function renderCard({ photo, property_type, price }) {
       alt="foto da propriedade"
     />
     <div class="cardDescription">
-      <h3>${property_type}</h3>
-      <p>${price}</p>
+      <h3 class="typeProperty">${property_type}</h3>
+      <h2 class="cardName">${name}</h2>
+      <p class="price">R$ ${price}</p>
     </div
   `;
 
