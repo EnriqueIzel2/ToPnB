@@ -40,7 +40,7 @@ function renderError() {
   const div = createDiv();
 
   div.innerHTML = `
-    <span>aaa</span>
+    <span>Recarregue a Página</span>
   `;
 
   cards.appendChild(div);
